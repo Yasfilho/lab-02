@@ -10,7 +10,7 @@ long long fibonacci_recursivo(int n) {
     if (n <= 1) {
         return n;
     }
-    // Passo recursivo: fib(n) = fib(n-1) + fib(n-2)
+    // Passo recursivo: fib(n) = fib(n-1) + fib(n-2
     return fibonacci_recursivo(n - 1) + fibonacci_recursivo(n - 2);
 }
 
